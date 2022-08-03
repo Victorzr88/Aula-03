@@ -6,31 +6,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Site</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 <body>
   <!-- header -->
-  <header>
-    <img src="assets/images/logo.png" alt="Logo da empresa XPTO">
-    <!--Menu do Site-->
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Sobre</li>
-        <li>Portifólio</li>
-        <li>Contato</li>
-        <li>Currículo</li>
+  <header class="container">
+    <section class="row">
+      <img src="assets/images/logo.png" alt="Logo da empresa XPTO">
+      <!--Menu do Site-->
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Sobre
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Portifólio
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Contato
+            </a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-laranja">
+              Currículo
+            </a>
+          </li>
 
 
-      </ul>
-    </nav>
-    <!-- End Menu Site-->
+        </ul>
+      </nav>
+      <!-- End Menu Site-->
+    </section>
   </header>
   <!-- End Header-->
   <!--Container-->
-  <main>
+  <main class="container">
     <!--Section content-->
-    <section>
+    <section class="row sobre-web-design">
       <!--Text Content-->
       <article>
         <h1>Web Desing</h1>
@@ -43,7 +66,7 @@
           a type specimen book.
         </p>
 
-        <a href="#">Saiba Mais</a>
+        <a href="#" class="btn btn-laranja">Saiba Mais</a>
       </article>
       <!--End Tet Content-->
       <figcaption>
@@ -54,9 +77,9 @@
     <!--End Section content-->
   </main>
   <!--Footer-->
-  <footer>
+  <footer class="container">
     <!-- Social media-->
-    <ul>
+    <ul class="row">
       <li>
         <a href="#">
           <img src="./assets/images/logo-insta.png" alt="Instagram">
